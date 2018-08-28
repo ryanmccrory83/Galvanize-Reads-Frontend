@@ -1,6 +1,6 @@
 <template>
     <div class="Header">    
-        <img src="../assets/galvanize-logo.png" class="header-img">
+        <a href="/"><img src="../assets/galvanize-logo.png" class="header-img"></a>
         <h1 class="header-h1">Ryan's Reads</h1>
     </div>
 </template>
@@ -24,7 +24,7 @@ margin-bottom: 20px;
 }
 .header-img {
     border: 4px solid black;
-    height: 108px;
+    height: 100px;
     width: 150px;
     margin-right: 20px;
 }
